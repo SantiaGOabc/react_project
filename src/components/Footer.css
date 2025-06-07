@@ -1,0 +1,41 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.8rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffd700;
+}
+
+.privacy-policy {
+  margin: 1rem 0;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
