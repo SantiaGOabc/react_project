@@ -6,6 +6,7 @@ import AcercaDe from './components/AcercaDe'
 import Contactos from './components/Contactos'
 import Servicios from './components/Servicios'
 import Footer from './components/Footer'
+import Chatbot from './components/Chatbot'
 import './App.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contactos" element={<Contactos />} />
         </Routes>
         <Footer />
+        <Chatbot />
       </div>
     </Router>
   )
